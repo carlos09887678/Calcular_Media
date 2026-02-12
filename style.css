@@ -2,16 +2,20 @@ body{
     font-family: Arial, sans-serif;
     padding: 24px;
     background-image: url(https://upload.wikimedia.org/wikipedia/pt/3/3b/Deadpool_2016.jpg);
-
-color: black
-
+    background-repeat: no-repeat;
+    background-size: cover;   /* faz a imagem ocupar toda a tela */
+    background-position: center; /* centraliza a imagem */
+    color: black;
 };
+
+
+
 
 .card {
     max-width: 420px;
     padding: 18px;
     border: 1px solid #ddd;
-    border-radius: 12px;
+    border-radius: 16px;
 
 }
 
